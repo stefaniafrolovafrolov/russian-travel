@@ -1,0 +1,15 @@
+.places__link {
+  max-width: 456px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.places__link:hover {
+  opacity: 0.8;
+  transition: 0.5s ease-in-out;
+}

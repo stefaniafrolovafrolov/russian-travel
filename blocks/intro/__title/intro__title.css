@@ -1,0 +1,38 @@
+.intro__title {
+  margin: 0;
+  padding: 0;
+  max-width: 690px;
+  font-family: "Inter";
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  color: #ffffff;
+  padding-bottom: 40px;
+}
+
+@media screen and (max-width: 480px) {
+  .intro__title {
+    max-width: 288px;
+    font-size: 38px;
+    line-height: 41px;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .intro__title {
+    max-width: 288px;
+    font-size: 35px;
+    line-height: 38px;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__title {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+    padding-bottom: 40px;
+  }
+}

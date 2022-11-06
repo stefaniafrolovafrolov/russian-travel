@@ -1,0 +1,39 @@
+.footer__link-timetable {
+  margin: 0;
+  padding: 0;
+  width: 94px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  margin-right: 18px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer__link-timetable:hover {
+  opacity: 0.8;
+  transition: 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 480px) {
+  .footer__link-timetable {
+    font-size: 30px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .footer__link-timetable {
+    font-size: 27px;
+    line-height: 27px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__link-timetable {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}

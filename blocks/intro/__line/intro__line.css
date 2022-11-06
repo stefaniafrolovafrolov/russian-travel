@@ -1,0 +1,9 @@
+.intro__line {
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 700px) {
+  .intro__line {
+    white-space: normal;
+  }
+}

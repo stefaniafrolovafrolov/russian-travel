@@ -1,0 +1,12 @@
+.places__url-heading {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 12px;
+  max-width: 456px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #aaaaaa;
+  text-transform: uppercase;
+}
