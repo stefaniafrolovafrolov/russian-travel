@@ -1,181 +1,27 @@
 .header {
-  width: 1184px;
+  max-width: 1184px;
   padding: 28px 48px 0 48px;
   display: flex;
   justify-content: space-between;
 }
 
-@media screen and (max-width: 1240px) {
-  .header {
-    width: 1140px;
-    padding: 28px 50px 0 50px;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .header {
-    width: 1100px;
-    padding: 28px 50px 0 50px;
-  }
-}
-
-@media screen and (max-width: 1160px) {
-  .header {
-    width: 1060px;
-    padding: 28px 50px 0 50px;
-  }
-}
-
-@media screen and (max-width: 1110px) {
-  .header {
-    width: 1010px;
-    padding: 28px 50px 0 50px;
-  }
-}
-
-@media screen and (max-width: 1060px) {
-  .header {
-    width: 960px;
-    padding: 28px 50px 0 50px;
-  }
-}
-
 @media screen and (max-width: 1024px) {
   .header {
-    width: 928px;
+    max-width: 928px;
     padding: 28px 48px 0 48px;
-  }
-}
-
-@media screen and (max-width: 980px) {
-  .header {
-    width: 880px;
-    padding: 28px 50px 0 50px;
-  }
-}
-
-@media screen and (max-width: 930px) {
-  .header {
-    width: 830px;
-    padding: 28px 50px 0 50px;
-  }
-}
-
-@media screen and (max-width: 880px) {
-  .header {
-    width: 840px;
-    padding: 28px 20px 0 20px;
-  }
-}
-
-@media screen and (max-width: 830px) {
-  .header {
-    width: 790px;
-    padding: 28px 20px 0 20px;
-  }
-}
-
-@media screen and (max-width: 780px) {
-  .header {
-    width: 740px;
-    padding: 28px 20px 0 20px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .header {
-    width: 720px;
+    max-width: 720px;
     padding: 28px 24px 0 24px;
-  }
-}
-
-@media screen and (max-width: 740px) {
-  .header {
-    width: 700px;
-    padding: 28px 20px 0 20px;
-  }
-}
-
-@media screen and (max-width: 690px) {
-  .header {
-    width: 650px;
-    padding: 28px 20px 0 20px;
-  }
-}
-
-@media screen and (max-width: 640px) {
-  .header {
-    width: 600px;
-    padding: 28px 20px 0 20px;
-  }
-}
-
-@media screen and (max-width: 590px) {
-  .header {
-    width: 550px;
-    padding: 28px 20px 0 20px;
-  }
-}
-
-@media screen and (max-width: 540px) {
-  .header {
-    width: 500px;
-    padding: 28px 20px 0 20px;
-  }
-}
-
-@media screen and (max-width: 520px) {
-  .header {
-    width: 460px;
-    padding: 28px 30px 0 30px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .header {
-    width: 400px;
-    padding: 28px 40px 0 40px;
-  }
-}
-
-@media screen and (max-width: 460px) {
-  .header {
-    width: 380px;
-    padding: 28px 40px 0 40px;
-  }
-}
-
-@media screen and (max-width: 430px) {
-  .header {
-    width: 380px;
-    padding: 28px 25px 0 25px;
-  }
-}
-
-@media screen and (max-width: 410px) {
-  .header {
-    width: 340px;
-    padding: 28px 35px 0 35px;
-  }
-}
-
-@media screen and (max-width: 390px) {
-  .header {
-    width: 350px;
-    padding: 28px 20px 0 20px;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .header {
-    width: 335px;
-    padding: 28px 20px 0 20px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .header {
-    width: 288px;
+    max-width: 288px;
     padding: 16px 16px 0 16px;
   }
 }
