@@ -1,7 +1,9 @@
 .places__place {
+  padding: 0;
+  margin: 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 2;
+  grid-template-rows: 2fr;
   column-gap: 40px;
   row-gap: 48px;
   padding-bottom: 80px;

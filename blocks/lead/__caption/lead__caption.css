@@ -2,14 +2,15 @@
   margin: 0;
   padding: 0;
   max-width: 158px;
-  font-family: "Inter";
+  font-family: "Inter", "Arial", "sans-serif";
   font-weight: 400;
   font-size: 10px;
   line-height: 14px;
   padding-top: 8px;
   text-transform: uppercase;
   color: #ffffff;
-  text-rendering: optimizeLegibility; 
+  text-rendering: optimizeLegibility;
+  letter-spacing: 1px;
 }
 
 @media screen and (max-width: 768px) {

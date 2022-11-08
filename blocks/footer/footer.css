@@ -1,110 +1,28 @@
 .footer {
-  width: 1184px;
+  padding: 0;
+  margin: 0;
+  max-width: 1184px;
   padding: 92px 48px 24px 48px;
   display: flex;
   justify-content: space-between;
 }
 
-@media screen and (max-width: 1240px) {
-  .footer {
-    width: 1184px;
-    padding: 92px 28px 24px 28px;
-  }
-}
-
-@media screen and (max-width: 1220px) {
-  .footer {
-    width: 1044px;
-    padding: 92px 88px 24px 88px;
-  }
-}
-
-@media screen and (max-width: 1160px) {
-  .footer {
-    width: 944px;
-    padding: 92px 108px 24px 108px;
-  }
-}
-
-@media screen and (max-width: 1100px) {
-  .footer {
-    width: 1050px;
-    padding: 88px 24px 24px 24px;
-  }
-}
-
 @media screen and (max-width: 1024px) {
   .footer {
-    width: 980px;
-    padding: 88px 24px 24px 24px;
-  }
-}
-
-@media screen and (max-width: 950px) {
-  .footer {
-    width: 900px;
-    padding: 88px 24px 24px 24px;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .footer {
-    width: 850px;
-    padding: 88px 24px 24px 24px;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .footer {
-    width: 750px;
-    padding: 88px 24px 24px 24px;
+    max-width: 928px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .footer {
-    width: 720px;
+    max-width: 720px;
     padding: 88px 24px 24px 24px;
   }
 }
 
 @media screen and (max-width: 700px) {
   .footer {
-    width: 650px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 58px 0 24px 0;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .footer {
-    width: 650px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 58px 0 24px 0;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .footer {
-    width: 600px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 58px 0 24px 0;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .footer {
-    width: 550px;
-    height: 100%;
+    max-width: 650px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -114,8 +32,7 @@
 
 @media screen and (max-width: 480px) {
   .footer {
-    width: 186px;
-    height: 100%;
+    max-width: 186px;
     padding: 64px 118px 24px 16px;
     display: flex;
     flex-direction: column;
@@ -124,7 +41,7 @@
 
 @media screen and (max-width: 320px) {
   .footer {
-    width: 186px;
+    max-width: 186px;
     height: 100%;
     padding: 64px 118px 24px 16px;
     display: flex;
