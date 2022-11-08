@@ -29,8 +29,8 @@
 @media screen and (max-width: 450px) {
   .lead__title {
     max-width: 320px;
-    font-size: 45px;
-    line-height: 49px;
+    font-size: 40px;
+    line-height: 44px;
   }
 }
 
