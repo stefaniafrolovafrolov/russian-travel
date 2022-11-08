@@ -1,13 +1,4 @@
 .header__lang-link_active {
- padding-right: 18px;
- text-decoration-line: underline;
-}
-
-
-
-/*@media screen and (max-width: 320px) {
-  .header__lang-link_active {
-    font-size: 18px;
-    line-height: 20px;
-  }
+  padding-right: 18px;
+  text-decoration-line: underline;
 }

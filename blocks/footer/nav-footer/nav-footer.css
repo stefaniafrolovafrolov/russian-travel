@@ -12,13 +12,6 @@
   }
 }
 
-@media screen and (max-width: 550px) {
-  .nav-footer {
-    display: flex;
-    justify-content: center;
-  }
-}
-
 @media screen and (max-width: 480px) {
   .nav-footer {
     flex-direction: column;

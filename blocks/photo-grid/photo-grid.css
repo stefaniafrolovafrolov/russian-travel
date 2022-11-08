@@ -28,6 +28,16 @@
   }
 }
 
+@media screen and (max-width: 550px) {
+  .photo-grid {
+    max-width: 500px;
+    padding: 88px 24px 0 24px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .photo-grid {
     max-width: 288px;
