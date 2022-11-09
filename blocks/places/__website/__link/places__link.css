@@ -5,6 +5,7 @@
   font-size: 18px;
   line-height: 22px;
   text-decoration-line: underline;
+  text-underline-offset: 5px;
   color: #ffffff;
   cursor: pointer;
 }

@@ -12,12 +12,6 @@
   text-rendering: optimizeLegibility;
 }
 
-@media screen and (max-width: 1024px) {
-  .lead__title {
-    max-width: 720px;
-  }
-}
-
 @media screen and (max-width: 700px) {
   .lead__title {
     max-width: 420px;
@@ -37,7 +31,5 @@
 @media screen and (max-width: 320px) {
   .lead__title {
     max-width: 288px;
-    font-size: 40px;
-    line-height: 44px;
   }
 }

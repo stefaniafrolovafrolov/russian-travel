@@ -2,33 +2,9 @@
   padding: 92px 148px 92px 148px;
 }
 
-@media screen and (max-width: 1240px) {
-  .places {
-    padding: 92px 128px 92px 128px;
-  }
-}
-
 @media screen and (max-width: 1100px) {
   .places {
     padding: 92px 78px 92px 78px;
-  }
-}
-
-@media screen and (width: 1024px) {
-  .places {
-    padding: 92px 48px 92px 48px;
-  }
-}
-
-@media screen and (width: 980px) {
-  .places {
-    padding: 92px 28px 92px 28px;
-  }
-}
-
-@media screen and (width: 940px) {
-  .places {
-    padding: 92px 18px 92px 18px;
   }
 }
 
@@ -38,31 +14,7 @@
   }
 }
 
-@media screen and (max-width: 900px) {
-  .places {
-    padding: 88px 14px 90px 14px;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .places {
-    padding: 88px 14px 90px 14px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .places {
-    padding: 88px 24px 90px 24px;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .places {
-    padding: 88px 14px 90px 14px;
-  }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 475px) {
   .places {
     padding: 64px 0 64px 0;
   }

@@ -16,7 +16,7 @@
       >
     <title>Путешествия по России: адаптивная вёрстка</title>
   </head>
-  <body>
+  <body class="root">
     <div class="page">
       <header class="header">
         <img
@@ -29,12 +29,11 @@
             <a
               class="header__lang-link header__lang-link_active"
               href="#"
-              target="_blank"
               >Ru</a
               >
           </li>
           <li>
-            <a class="header__lang-link" href="#" target="_blank">En</a>
+            <a class="header__lang-link" href="#" >En</a>
           </li>
         </ul>
       </header>
@@ -169,7 +168,7 @@
               src="./images/place-kosa.jpg"
               alt="изображение озера и неба с облаками"
               >
-            <div class="wrapper-places-paragraph">
+            <div class="places__wrapper-paragraph">
               <p class="places__paragraph">
                 Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два
                 водных горизонта — спокойного Куршского залива с одной стороны и
@@ -203,7 +202,7 @@
               src="./images/place-kolsky.jpg"
               alt="изображение гор на Кольском полуострове"
               >
-            <div class="wrapper-places-paragraph">
+            <div class="places__wrapper-paragraph">
               <p class="places__paragraph">
                 Почти весь полуостров находится за Полярным кругом. Саамская
                 тундра, от которой на юг — тайга, а на север — Ледовитый океан,
@@ -237,7 +236,7 @@
               src="./images/place-altai.jpg"
               alt="изображение тайга на Алтае"
               >
-            <div class="wrapper-places-paragraph">
+            <div class="places__wrapper-paragraph">
               <p class="places__paragraph">
                 Алтай — одно из красивейших мест в России. В первую очередь
                 из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные
@@ -272,7 +271,7 @@
               src="./images/place-winter-baikal.jpg"
               alt="изображение озера Байкал замерзжшего"
               >
-            <div class="wrapper-places-paragraph">
+            <div class="places__wrapper-paragraph">
               <p class="places__paragraph">
                 Всем известен Байкал как крупнейшее озеро в мире. Многие также
                 знают, что это самый большой источник пресной воды и одно из
@@ -306,7 +305,7 @@
               alt="изображение 
               природы Карелии"
               >
-            <div class="wrapper-places-paragraph">
+            <div class="places__wrapper-paragraph">
               <p class="places__paragraph">
                 Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу
                 сибирская лиственница не растёт западнее Водлозера. Зато здесь
@@ -339,8 +338,8 @@
         </section>
       </main>
       <footer class="footer">
-        <nav>
-          <ul class="nav-footer">
+        <nav class="footer__nav">
+          <ul class="list__footer">
             <li>
               <a
                 class="footer__link-cards"

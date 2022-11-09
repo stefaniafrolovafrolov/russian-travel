@@ -1,5 +1,6 @@
 .footer {
   margin: 0;
+  height: 100%;
   max-width: 1184px;
   padding: 92px 48px 24px 48px;
   display: flex;
@@ -21,7 +22,7 @@
 
 @media screen and (max-width: 700px) {
   .footer {
-    max-width: 650px;
+    max-width: 700px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,9 +39,5 @@
 @media screen and (max-width: 320px) {
   .footer {
     max-width: 186px;
-    height: 100%;
-    padding: 64px 118px 24px 16px;
-    display: flex;
-    flex-direction: column;
   }
 }
