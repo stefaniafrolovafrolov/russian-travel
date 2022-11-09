@@ -1,4 +1,4 @@
-.list__footer {
+.footer__list {
   margin: 0;
   padding: 0;
   display: flex;
@@ -6,13 +6,13 @@
 }
 
 @media screen and (max-width: 700px) {
-  .list__footer {
+  .footer__list {
     justify-content: center;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .list__footer {
+  .footer__list {
     flex-direction: column;
     row-gap: 32px;
     align-self: flex-start;
