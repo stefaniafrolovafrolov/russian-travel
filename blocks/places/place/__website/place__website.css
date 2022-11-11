@@ -1,4 +1,4 @@
-.places__website {
+.place__website {
   padding: 0;
   margin: 0;
   max-width: 456px;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 480px) {
-  .places__website {
+  .place__website {
     padding: 0 16px 0 16px;
   }
 }

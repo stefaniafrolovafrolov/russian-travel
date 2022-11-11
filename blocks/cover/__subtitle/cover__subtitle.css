@@ -7,15 +7,8 @@
   font-size: 18px;
   line-height: 22px;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   z-index: 1;
-}
-
-@media screen and (max-width: 768px) {
-  .cover__subtitle {
-    font-size: 18px;
-    line-height: 22px;
-  }
 }
 
 @media screen and (max-width: 320px) {
