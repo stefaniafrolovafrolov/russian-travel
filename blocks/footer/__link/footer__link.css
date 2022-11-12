@@ -1,13 +1,11 @@
 .footer__link {
   margin: 0;
   padding: 0;
-  /*width: 94px;*/
   font-family: "Inter", "Arial", "sans-serif";
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
   color: #ffffff;
-  margin-right: 18px;
   text-decoration: none;
   cursor: pointer;
 }
