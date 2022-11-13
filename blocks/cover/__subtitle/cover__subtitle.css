@@ -11,10 +11,16 @@
   z-index: 1;
 }
 
+@media screen and (max-width: 400px) {
+  .cover__subtitle {
+    max-width: 300px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .cover__subtitle {
     max-width: 288px;
-    font-size: 14px;
-    line-height: 16px;
   }
 }
